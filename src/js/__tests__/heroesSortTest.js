@@ -12,5 +12,5 @@ test('sort array test to healf', () => {
         {name: 'мечник', health: 10},
       ]
       
-      expect(getSortedHeroes(heroes)).toEqaul(final)
+      expect(getSortedHeroes(heroes)).toEqual(final);
 });
